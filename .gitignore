@@ -1,0 +1,51 @@
+venv
+# 💻 Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 🧪 Playwright test artifacts
+playwright-report/
+test-results/
+*.log
+
+# 🎭 Playwright persistent context (browser profile)
+linkedin_profile/
+
+# 🔐 Environment and secrets
+.env
+*.env
+.env.*
+
+# 🗃 VSCode or JetBrains IDE stuff
+.vscode/
+.idea/
+
+# 📦 Python dependency management (optional if not using)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🧼 OS cruft
+.DS_Store
+Thumbs.db
+
+# 🧪 JSON test dumps / scraped data
+linkedin_job_details.json
+linkedin_dump.html
+
+# 🕳️ Git metadata confusion
+*.swp
+*.bak
+*.tmp
+*.old
+
+# 🧬 Jupyter stuff (if ever used)
+.ipynb_checkpoints/
+
+# 🚧 System/Local settings
+*.local
+*.sqlite3
