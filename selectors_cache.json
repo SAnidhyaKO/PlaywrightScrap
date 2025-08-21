@@ -1,0 +1,24 @@
+{
+  "job_title": {
+    "kind": "css",
+    "sel": "div.t-24.job-details-jobs-unified-top-card__job-title"
+  },
+  "company_name": {
+    "kind": "regex_scan",
+    "sel": {
+      "scan_css": "a,div,span",
+      "pattern": "(followers|employee|Follow$|Company)"
+    }
+  },
+  "location_block": {
+    "kind": "regex_scan",
+    "sel": {
+      "scan_css": "div,span,li",
+      "pattern": "(Remote|Hybrid|On-?site|[A-Za-z]+,\\s?[A-Za-z]+)"
+    }
+  },
+  "job_description": {
+    "kind": "css",
+    "sel": "div#job-details"
+  }
+}
